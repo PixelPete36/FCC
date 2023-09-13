@@ -48,7 +48,7 @@ body {
 }
 
 #preview {
-  height: 20vh;
+  min-height: 20vh;
   background-color: var(--viewerbg);
   overflow-wrap: anywhere;
   object-fit: contain;
@@ -78,7 +78,7 @@ body {
 }
 
 .minHeight {
-  min-height: 90vh;
+  min-height: 90vh !important;
 }
 
 code {
